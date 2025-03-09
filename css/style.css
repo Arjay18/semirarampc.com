@@ -1627,3 +1627,41 @@ p {
         grid-template-columns: 1fr; /* Single column layout for footer links */
     }
 }
+
+/* Responsive Adjustments for Max Width 767px */
+@media (max-width: 767px) {
+    .hero {
+        padding: 80px 0; /* Reduce padding for smaller screens */
+    }
+
+    .hero-title {
+        font-size: 2rem; /* Smaller title size for mobile */
+    }
+
+    .hero-subtitle {
+        font-size: 1.5rem; /* Smaller subtitle for mobile */
+    }
+
+    .cta-button {
+        padding: 10px 20px; /* Adjust button padding for mobile */
+    }
+}
+
+/* Responsive Adjustments for Max Width 766px */
+@media (max-width: 766px) {
+    .hero {
+        padding: 70px 0; /* Further reduce padding for very small screens */
+    }
+
+    .hero-title {
+        font-size: 1.8rem; /* Further reduce title size for very small screens */
+    }
+
+    .hero-subtitle {
+        font-size: 1.3rem; /* Further reduce subtitle size for very small screens */
+    }
+
+    .cta-button {
+        padding: 8px 16px; /* Further adjust button padding for very small screens */
+    }
+}
