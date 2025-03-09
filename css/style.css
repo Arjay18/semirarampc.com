@@ -1523,3 +1523,107 @@ p {
 .contact-details {
     color: black; /* Change text color to black */
 }
+
+/* Responsive Design for Max Width 767px */
+@media (max-width: 767px) {
+    body {
+        font-size: 14px; /* Adjust base font size for smaller screens */
+    }
+
+    .section-container {
+        padding: 0 1rem; /* Reduce padding for smaller screens */
+    }
+
+    .section-title {
+        font-size: 1.8rem; /* Smaller title size */
+    }
+
+    .section-subtitle {
+        font-size: 1rem; /* Smaller subtitle size */
+    }
+
+    .contact-content {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        gap: 2rem; /* Space between items */
+    }
+
+    .contact-details {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+    }
+
+    .nav-links {
+        flex-direction: column; /* Stack navigation links vertically */
+        gap: 1rem; /* Space between links */
+    }
+
+    .footer-top {
+        flex-direction: column; /* Stack footer items vertically */
+    }
+
+    .footer-links-group {
+        grid-template-columns: 1fr; /* Single column layout for footer links */
+    }
+
+    .hero-title {
+        font-size: 36px; /* Smaller font size for mobile devices */
+    }
+
+    .hero-subtitle {
+        font-size: 20px; /* Smaller subtitle for mobile */
+    }
+
+    .primary-btn, .secondary-btn, .card-btn {
+        width: 100%; /* Full width buttons on mobile */
+        padding: 0.8rem; /* Adjust padding for better touch targets */
+    }
+
+    .testimonial-text {
+        font-size: 14px; /* Adjust testimonial text size */
+    }
+
+    .news-title {
+        font-size: 18px; /* Smaller title font size for news cards */
+    }
+
+    .news-description {
+        font-size: 14px; /* Smaller description font size */
+    }
+}
+
+/* Responsive Design for Max Width 766px */
+@media (max-width: 766px) {
+    .section-title {
+        font-size: 1.6rem; /* Further reduce title size */
+    }
+
+    .section-subtitle {
+        font-size: 0.9rem; /* Further reduce subtitle size */
+    }
+
+    .contact-item {
+        font-size: 12px; /* Adjust font size for smaller screens */
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr; /* Single column layout for team members */
+    }
+
+    .values-grid {
+        grid-template-columns: 1fr; /* Single column layout for values */
+    }
+
+    .work-grid {
+        grid-template-columns: 1fr; /* Single column layout for work items */
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr; /* Single column layout for services */
+    }
+
+    .footer-links-group {
+        grid-template-columns: 1fr; /* Single column layout for footer links */
+    }
+}
