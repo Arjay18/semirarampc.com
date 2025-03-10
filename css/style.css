@@ -1524,144 +1524,22 @@ p {
     color: black; /* Change text color to black */
 }
 
-/* Responsive Design for Max Width 767px */
-@media (max-width: 767px) {
-    body {
-        font-size: 14px; /* Adjust base font size for smaller screens */
-    }
 
-    .section-container {
-        padding: 0 1rem; /* Reduce padding for smaller screens */
-    }
-
-    .section-title {
-        font-size: 1.8rem; /* Smaller title size */
-    }
-
-    .section-subtitle {
-        font-size: 1rem; /* Smaller subtitle size */
-    }
-
-    .contact-content {
-        display: flex;
-        flex-direction: column; /* Stack items vertically */
-        gap: 2rem; /* Space between items */
-    }
-
-    .contact-details {
-        display: flex;
-        flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center items */
-    }
-
-    .nav-links {
-        flex-direction: column; /* Stack navigation links vertically */
-        gap: 1rem; /* Space between links */
-    }
-
-    .footer-top {
-        flex-direction: column; /* Stack footer items vertically */
-    }
-
-    .footer-links-group {
-        grid-template-columns: 1fr; /* Single column layout for footer links */
-    }
-
-    .hero-title {
-        font-size: 36px; /* Smaller font size for mobile devices */
-    }
-
-    .hero-subtitle {
-        font-size: 20px; /* Smaller subtitle for mobile */
-    }
-
-    .primary-btn, .secondary-btn, .card-btn {
-        width: 100%; /* Full width buttons on mobile */
-        padding: 0.8rem; /* Adjust padding for better touch targets */
-    }
-
-    .testimonial-text {
-        font-size: 14px; /* Adjust testimonial text size */
-    }
-
-    .news-title {
-        font-size: 18px; /* Smaller title font size for news cards */
-    }
-
-    .news-description {
-        font-size: 14px; /* Smaller description font size */
-    }
+/* Logo Styles */
+.logo-image {
+    max-width: 50px; /* Set a smaller maximum width for the logo */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure it behaves like a block element */
 }
-
-/* Responsive Design for Max Width 766px */
-@media (max-width: 766px) {
-    .section-title {
-        font-size: 1.6rem; /* Further reduce title size */
-    }
-
-    .section-subtitle {
-        font-size: 0.9rem; /* Further reduce subtitle size */
-    }
-
-    .contact-item {
-        font-size: 12px; /* Adjust font size for smaller screens */
-    }
-
-    .team-grid {
-        grid-template-columns: 1fr; /* Single column layout for team members */
-    }
-
-    .values-grid {
-        grid-template-columns: 1fr; /* Single column layout for values */
-    }
-
-    .work-grid {
-        grid-template-columns: 1fr; /* Single column layout for work items */
-    }
-
-    .services-grid {
-        grid-template-columns: 1fr; /* Single column layout for services */
-    }
-
-    .footer-links-group {
-        grid-template-columns: 1fr; /* Single column layout for footer links */
-    }
+.highlight {
+    color: #FFD700; /* Change this to your desired color */
+    font-weight: bold; /* Optional: make it bold */
 }
-
-/* Responsive Adjustments for Max Width 767px */
-@media (max-width: 767px) {
-    .hero {
-        padding: 80px 0; /* Reduce padding for smaller screens */
-    }
-
-    .hero-title {
-        font-size: 2rem; /* Smaller title size for mobile */
-    }
-
-    .hero-subtitle {
-        font-size: 1.5rem; /* Smaller subtitle for mobile */
-    }
-
-    .cta-button {
-        padding: 10px 20px; /* Adjust button padding for mobile */
-    }
+.cooperative {
+    color: blue; /* Change this to your desired blue color */
+    font-weight: bold; /* Optional: make it bold */
 }
-
-/* Responsive Adjustments for Max Width 766px */
-@media (max-width: 766px) {
-    .hero {
-        padding: 70px 0; /* Further reduce padding for very small screens */
-    }
-
-    .hero-title {
-        font-size: 1.8rem; /* Further reduce title size for very small screens */
-    }
-
-    .hero-subtitle {
-        font-size: 1.3rem; /* Further reduce subtitle size for very small screens */
-    }
-
-    .cta-button {
-        padding: 8px 16px; /* Further adjust button padding for very small screens */
-    }
+.multi-purpose {
+    color: #ff1e00; /* Yellow gold color */
+    font-weight: bold; /* Optional: make it bold */
 }
