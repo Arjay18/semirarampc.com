@@ -942,7 +942,7 @@ section {
 }
 
 .mobile-menu-toggle {
-    display: none;
+    display: fixed;
 }
 
 @media (max-width: 768px) {
