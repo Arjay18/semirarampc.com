@@ -18,10 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Initialize mobile menu
     initMobileMenu();
-    
-    // Remove preloader
-    removePreloader();
-
+   
     // Optional: Add hover effect for testimonial cards
     const testimonialCards = document.querySelectorAll('.testimonial-card');
     
