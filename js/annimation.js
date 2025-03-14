@@ -1,31 +1,6 @@
 // GSAP Animations
 gsap.registerPlugin(ScrollTrigger);
 
-// Hero section animations
-function initHeroAnimations() {
-    const heroTitle = document.querySelector('.hero-title');
-    const heroSubtitle = document.querySelector('.hero-subtitle');
-    const heroCta = document.querySelector('.hero-cta');
-    
-    const tl = gsap.timeline({ defaults: { ease: "power4.out" } });
-    
-    tl.from(heroTitle.children, {
-        y: 100,
-        opacity: 0,
-        duration: 1,
-        stagger: 0.2
-    })
-    .from(heroSubtitle, {
-        y: 20,
-        opacity: 0,
-        duration: 1
-    }, "-=0.4")
-    .from(heroCta, {
-        y: 20,
-        opacity: 0,
-        duration: 1
-    }, "-=0.2");
-}
 
 // Scroll animations
 function initScrollAnimations() {
