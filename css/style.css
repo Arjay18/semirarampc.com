@@ -1363,6 +1363,9 @@ section {
     border-radius: 10px;
     position: relative;
 }
+.modal .modal-content h3 {
+    position: center;
+}
 
 .close-button {
     color: #aaa;
